@@ -1,6 +1,8 @@
+// import { apply } from 'core-js/fn/reflect'
 import { createApp } from 'vue'
 import App from './App'
+import router from '@/router/router'
 
-// const app =createApp(App)
+const app = createApp(App)
 
-createApp(App).mount('#app')
+app.use(router).mount('#app')

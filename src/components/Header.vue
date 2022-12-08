@@ -65,10 +65,6 @@ export default {
     text-align: center;
 }
 
-/* .header__link:visited {
-    color: blue;
-} */
-
 .header__images {
     display: flex;
     justify-content: space-between;
