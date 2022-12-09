@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>asdfasdfasdfadafdfasdfa</h1>
+        <h1>hello my fried</h1>
     </div>
 
 
@@ -17,5 +17,6 @@ export default {
 
 h1 {
     color: black;
+    text-align: center;
 }
 </style>

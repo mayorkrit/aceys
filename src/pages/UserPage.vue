@@ -13,7 +13,7 @@ import Footer from '@/components/Footer'
 
 export default {
     components: {
-        Header, Cart, Footer
+        Header, Cart, Footer,
     },
     data() {
         return {
