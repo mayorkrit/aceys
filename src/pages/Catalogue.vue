@@ -5,11 +5,6 @@
             <div class="anime"></div>
             <img src="../images/hoodie.svg" alt="hoodie" class="catalogue__hoodie">
             <div class="catalogue__hoodie_info" v-for="hoodie in hoodies">
-                <p>{{hoodie.name}}</p> 
-                <p>{{hoodie.weight}}</p> 
-                <p>{{hoodie.compound}}</p>
-                <p>{{hoodie.price}}</p>
-                <p>{{hoodie.size}}</p>
                 <button 
                     class="btn"
                     @click="showDialog">buy
@@ -36,28 +31,6 @@ import MyDialog from '@/components/MyDialog'
 export default {
     components: {
         Header, Footer, MyDialog
-    },
-
-    data() {
-        return {
-            menu: [
-                {name: 'CATALOGUE', path: '/catalogue'},
-                {name: 'CART', path: '/cart'},
-                {name: 'ABOUT', path: '/about'},
-            ],
-            hoodies: [
-                {id: 1, name: '"DICE" HOODIE', weight: '490 GRAMM', compound: '100% COTTON', price: '8000 RUB', size: 'ONE SIZE'}
-            ],
-            tees: [
-                {id: 1, name: '“KIDS” TEE', weight: '270 GRAMM', compound: '100% COTTON', price: '2400 RUB', size: 'L XL'},
-            ],
-            dialogVisible: false,
-        }
-    },
-    methods: {
-        showDialog() {
-            this.dialogVisible = true
-        }
     }
 }
 </script>
