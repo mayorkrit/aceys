@@ -1,5 +1,5 @@
-import MyDialog from '@/components/MyDialog'
+// import MyDialog from '@/components/MyDialog'
 
-export default [
-    MyDialog
-]
+// export default [
+//     MyDialog
+// ]

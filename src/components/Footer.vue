@@ -35,6 +35,14 @@
 @media (max-width: 767px) {
     .footer {
         flex-direction: column;
+        padding: 0 20px 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer__links {
+        font-size: 20px;
+        line-height: 25px;
     }
 }
 

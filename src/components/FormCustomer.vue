@@ -46,7 +46,6 @@ export default {
         persist() {
             localStorage.name = this.name;
             localStorage.email = this.email;
-            console.log('теперь я притворяюсь, что сделал ещё кое-что...');
         }
     }
 }
