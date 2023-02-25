@@ -4,7 +4,7 @@
             <h1 class="main-page__link">continue shopping at <a href="https://aceysallaround.com/" class="main-page__link_actualy">ACEYSALLAROUND.COM</a></h1>
         </div>
         <div class="main-page__content">
-            <img src="@/images/monkeys.svg" alt="aceys" class="main-page__content__image_monkey">
+            <img src="../images/monkeys.svg" alt="aceys" class="main-page__content__image_monkey">
             <h2 class="main-page__content_trap">sign up for giveaway</h2>
         </div>
         <FormCustomer/>
@@ -15,6 +15,7 @@
 <script>
 import Footer from '@/components/Footer'
 import FormCustomer from '@/components/FormCustomer'
+import { url } from 'inspector';
 
 export default {
     components: {

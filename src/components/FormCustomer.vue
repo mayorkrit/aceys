@@ -46,7 +46,10 @@ export default {
         persist() {
             localStorage.name = this.name;
             localStorage.email = this.email;
+            this.name = '';
+            this.email = '';
         }
+        
     }
 }
 </script>
